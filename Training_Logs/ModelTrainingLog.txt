@@ -1,0 +1,226 @@
+2023-06-27/08:10:57		Start of Training
+2023-06-27/08:10:57		Entered the get_data method of the Data_Getter class
+2023-06-27/08:10:58		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:10:58		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:10:58		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:10:58		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:10:58		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:10:58		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:12:46		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:12:53		None
+2023-06-27/08:12:53		Exception occured in get_best_model method of the Model_Finder class. Exception message:  in user code:
+
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 878, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 867, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 860, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 809, in train_step
+        loss = self.compiled_loss(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\compile_utils.py", line 201, in __call__
+        loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 141, in __call__
+        losses = call_fn(y_true, y_pred)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 245, in call  **
+        return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 1664, in categorical_crossentropy
+        return backend.categorical_crossentropy(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\backend.py", line 4994, in categorical_crossentropy
+        target.shape.assert_is_compatible_with(output.shape)
+
+    ValueError: Shapes (None, 1) and (None, 4) are incompatible
+
+2023-06-27/08:12:53		Unsuccessful End of Training
+2023-06-27/08:22:28		Start of Training
+2023-06-27/08:22:28		Entered the get_data method of the Data_Getter class
+2023-06-27/08:22:28		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:22:28		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:22:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:22:28		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:22:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:22:28		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:24:33		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:24:40		None
+2023-06-27/08:24:41		Exception occured in get_best_model method of the Model_Finder class. Exception message:  in user code:
+
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 878, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 867, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 860, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 809, in train_step
+        loss = self.compiled_loss(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\compile_utils.py", line 201, in __call__
+        loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 141, in __call__
+        losses = call_fn(y_true, y_pred)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 245, in call  **
+        return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 1664, in categorical_crossentropy
+        return backend.categorical_crossentropy(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\backend.py", line 4994, in categorical_crossentropy
+        target.shape.assert_is_compatible_with(output.shape)
+
+    ValueError: Shapes (None, 1) and (None, 4) are incompatible
+
+2023-06-27/08:24:41		Unsuccessful End of Training
+2023-06-27/08:27:32		Start of Training
+2023-06-27/08:27:32		Entered the get_data method of the Data_Getter class
+2023-06-27/08:27:32		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:27:33		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:27:33		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:27:33		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:27:33		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:27:33		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:30:10		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:30:19		Exception occured in get_best_model method of the Model_Finder class. Exception message:  in user code:
+
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 878, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 867, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 860, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\training.py", line 809, in train_step
+        loss = self.compiled_loss(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\engine\compile_utils.py", line 201, in __call__
+        loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 141, in __call__
+        losses = call_fn(y_true, y_pred)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 245, in call  **
+        return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\losses.py", line 1664, in categorical_crossentropy
+        return backend.categorical_crossentropy(
+    File "C:\Users\Onkur\anaconda3\envs\deepseries\lib\site-packages\keras\backend.py", line 4994, in categorical_crossentropy
+        target.shape.assert_is_compatible_with(output.shape)
+
+    ValueError: Shapes (32, 1) and (32, 4) are incompatible
+
+2023-06-27/08:30:19		Unsuccessful End of Training
+2023-06-27/08:38:46		Start of Training
+2023-06-27/08:38:46		Entered the get_data method of the Data_Getter class
+2023-06-27/08:38:46		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:38:47		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:38:47		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:38:47		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:38:47		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:38:47		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:41:15		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:41:32		Exception occured in get_best_model method of the Model_Finder class. Exception message:  'History' object is not subscriptable
+2023-06-27/08:41:32		Unsuccessful End of Training
+2023-06-27/08:49:10		Start of Training
+2023-06-27/08:49:10		Entered the get_data method of the Data_Getter class
+2023-06-27/08:49:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:49:11		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:49:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:49:11		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:49:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:49:11		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:51:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:52:05		Model training successful
+2023-06-27/08:55:14		Start of Training
+2023-06-27/08:55:14		Entered the get_data method of the Data_Getter class
+2023-06-27/08:55:14		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:55:15		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:55:15		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:55:15		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:55:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:55:15		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/08:58:07		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/08:58:26		Model training successful
+2023-06-27/08:59:49		Start of Training
+2023-06-27/08:59:49		Entered the get_data method of the Data_Getter class
+2023-06-27/08:59:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/08:59:49		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/08:59:49		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/08:59:49		Entered the is_null_present method of the Preprocessor class
+2023-06-27/08:59:50		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/08:59:50		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/09:02:53		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/09:03:12		Model training successful
+2023-06-27/09:03:13		Unsuccessful End of Training
+2023-06-27/09:07:42		Start of Training
+2023-06-27/09:07:42		Entered the get_data method of the Data_Getter class
+2023-06-27/09:07:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/09:07:42		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/09:07:42		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/09:07:42		Entered the is_null_present method of the Preprocessor class
+2023-06-27/09:07:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/09:07:42		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/09:11:02		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/09:11:23		Model training successful
+2023-06-27/09:11:24		Unsuccessful End of Training
+2023-06-27/09:13:37		Start of Training
+2023-06-27/09:13:37		Entered the get_data method of the Data_Getter class
+2023-06-27/09:13:37		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/09:13:38		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/09:13:38		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/09:13:38		Entered the is_null_present method of the Preprocessor class
+2023-06-27/09:13:38		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/09:13:38		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/09:17:11		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/09:17:31		Model training successful
+2023-06-27/09:17:32		Entered the save_model method of the File_Operation class
+2023-06-27/09:17:32		Exception occured in save_model method of the Model_Finder class. Exception message:  save_model() missing 1 required positional argument: 'filepath'
+2023-06-27/09:17:32		Unsuccessful End of Training
+2023-06-27/09:20:29		Start of Training
+2023-06-27/09:20:29		Entered the get_data method of the Data_Getter class
+2023-06-27/09:20:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/09:20:30		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/09:20:30		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/09:20:30		Entered the is_null_present method of the Preprocessor class
+2023-06-27/09:20:30		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/09:20:30		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/09:24:13		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/09:24:34		Model training successful
+2023-06-27/09:24:35		Entered the save_model method of the File_Operation class
+2023-06-27/09:24:35		Successful End of Training
+2023-06-27/10:16:43		Start of Training
+2023-06-27/10:16:43		Entered the get_data method of the Data_Getter class
+2023-06-27/10:16:43		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-27/10:16:44		Entered the separate_label_feature method of the Preprocessor class
+2023-06-27/10:16:44		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-27/10:16:44		Entered the is_null_present method of the Preprocessor class
+2023-06-27/10:16:44		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-27/10:16:44		Entered the impute_missing_values method of the Preprocessor class
+2023-06-27/10:21:05		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-27/10:21:31		Model training successful
+2023-06-27/10:21:32		Entered the save_model method of the File_Operation class
+2023-06-27/10:21:32		Successful End of Training
+2023-06-28/23:14:33		Start of Training
+2023-06-28/23:14:33		Entered the get_data method of the Data_Getter class
+2023-06-28/23:14:33		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-28/23:14:33		Entered the separate_label_feature method of the Preprocessor class
+2023-06-28/23:14:33		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-28/23:14:33		Entered the is_null_present method of the Preprocessor class
+2023-06-28/23:14:33		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-28/23:14:33		Entered the impute_missing_values method of the Preprocessor class
+2023-06-28/23:18:59		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-28/23:19:23		Model training successful
+2023-06-28/23:19:24		Entered the save_model method of the File_Operation class
+2023-06-28/23:19:24		Successful End of Training
+2023-06-29/02:06:42		Start of Training
+2023-06-29/02:06:42		Entered the get_data method of the Data_Getter class
+2023-06-29/02:06:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-29/02:06:43		Entered the separate_label_feature method of the Preprocessor class
+2023-06-29/02:06:43		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-29/02:06:43		Entered the is_null_present method of the Preprocessor class
+2023-06-29/02:06:43		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-29/02:06:43		Entered the impute_missing_values method of the Preprocessor class
+2023-06-29/02:12:23		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-29/02:13:07		Model training successful
+2023-06-29/02:13:13		Entered the save_model method of the File_Operation class
+2023-06-29/02:13:13		Successful End of Training
+2023-06-29/09:11:48		Start of Training
+2023-06-29/09:11:48		Entered the get_data method of the Data_Getter class
+2023-06-29/09:11:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-06-29/09:11:48		Entered the separate_label_feature method of the Preprocessor class
+2023-06-29/09:11:48		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-06-29/09:11:48		Entered the is_null_present method of the Preprocessor class
+2023-06-29/09:11:48		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-06-29/09:11:48		Entered the impute_missing_values method of the Preprocessor class
+2023-06-29/09:18:03		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2023-06-29/09:18:43		Model training successful
+2023-06-29/09:18:47		Successful End of Training
